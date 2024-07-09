@@ -71,8 +71,12 @@ Uses a local area network to achieve data transmission and remote control betwee
 
 ### Code Files
 
-- `SEVER_LATEST.zip`: Code deployed on the nurse's receiver, responsible for driving the digital tube, controlling the buzzer, and connecting to the local area network.
-- `CLIENT_LATEST.zip`: Code deployed on the drip detection alarm, responsible for detecting drip drops and controlling the servo.
+- `detector_client`: Code deployed on the nurse's receiver, responsible for driving the digital tube, controlling the buzzer, and connecting to the local area network.
+- `detector_client`: Code deployed on the drip detection alarm, responsible for detecting drip drops and controlling the servo.
+- `Shell_model_file`: Contain all the 3D files need to be printed in this project.
+
+### Notification
+- **build** is needed in both `detector_client` and `detector_client`.
 
 ## Contribution
 
