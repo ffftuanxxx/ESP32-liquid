@@ -188,10 +188,6 @@ I (10299) wifi station: connect to the AP fail
 I (10299) wifi station: Failed to connect to SSID:myssid, password:mypassword
 ```
 
-## Contribution
-
-Contributions to this project are welcome! If you have any suggestions or find any issues, please submit an issue or pull request.
-
 ## License
 
 This project is licensed under the MIT License. For details, please see the LICENSE file.
@@ -271,12 +267,10 @@ This project is licensed under the MIT License. For details, please see the LICE
 
 ### 代码文件
 
-- `SEVER_LATEST.zip`: 部署在护士端的接收器代码，负责数码管驱动、蜂鸣器控制和局域网连接。
-- `CLIENT_LATEST.zip`: 部署在液滴检测警报器上的代码，负责液滴检测和舵机控制。
+- `detector_client`: Code deployed on the nurse's receiver, responsible for driving the digital tube, controlling the buzzer, and connecting to the local area network.
+- `detector_client`: Code deployed on the drip detection alarm, responsible for detecting drip drops and controlling the servo.
+- `Shell_model_file`: Contain all the 3D files need to be printed in this project.
 
-## 贡献
-
-欢迎对本项目进行贡献！如果有任何建议或发现问题，请提交 issue 或 pull request。
 
 ## 许可证
 
