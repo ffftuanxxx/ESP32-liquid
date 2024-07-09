@@ -78,6 +78,7 @@ Uses a local area network to achieve data transmission and remote control betwee
 ### Notification
 - **build** is needed in both `detector_client` and `detector_client`.
 
+
 ## How to use example
 
 ### Configure the project
