@@ -2,6 +2,29 @@
 
 [中文版本](#基于-esp32-的医院静脉点滴实时监控与控制平台)
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Hardware Components](#hardware-components)
+- [Technical Solution](#technical-solution)
+  - [1. Drip Detection Sensor (SD01)](#1-drip-detection-sensor-sd01)
+  - [2. Servo Control (MG90S)](#2-servo-control-mg90s)
+  - [3. Digital Tube Display (HS-F14P)](#3-digital-tube-display-hs-f14p)
+  - [4. Network Communication](#4-network-communication)
+- [Performance Testing](#performance-testing)
+- [Application Prospects](#application-prospects)
+- [Usage Instructions](#usage-instructions)
+  - [Hardware Connection](#hardware-connection)
+  - [Software Setup](#software-setup)
+  - [Code Files](#code-files)
+  - [Notification](#notification)
+- [How to use example](#how-to-use-example)
+  - [Configure the project](#configure-the-project)
+  - [Build and Flash](#build-and-flash)
+- [Example Output](#example-output)
+- [License](#license)
+
 ## Project Overview
 
 The "Real-time Monitoring and Control Platform for Intravenous Drip Based on ESP32" is mainly applied in the medical field, aiming to address safety hazards and management challenges during clinical intravenous infusion. This system monitors the infusion rate and status in real-time, promptly detects abnormal situations, issues alarms, and automatically controls the infusion tube blockage to ensure patient safety.
