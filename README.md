@@ -1,7 +1,7 @@
 # Real-time Monitoring and Control Platform for Intravenous Drip Based on ESP32
 
 [中文版本](#基于-esp32-的医院静脉点滴实时监控与控制平台)
-## [Paper](https://arxiv.org/abs/2302.11566) | [Video for demo](http://elucidator.cn/esp32hosp-demo/) | [Project Page](https://moygcc.github.io/vid2avatar/) | [SynWild Data](https://synwild.ait.ethz.ch/)
+## [Video for demo](http://elucidator.cn/esp32hosp-demo/)
 ## Table of Contents
 
 - [Project Overview](#project-overview)
